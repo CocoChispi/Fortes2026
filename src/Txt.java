@@ -48,7 +48,7 @@ public class Txt {
 				pw.print(
 				        "1" + ";"                               // Tipo
 				        + registro.fecha + ";"                  // Fecha
-				        + /* registro.NIF + */ ";"              // NIF Responsable
+				        + registro.NIF +  ";"              		// NIF Responsable
 				        + registro.ROPO + ";"                   // ROPO Responsable
 				        + registro.operacion + ";"              // operacion
 				        + registro.entidad.CIF + ";"            // NIF Destino
